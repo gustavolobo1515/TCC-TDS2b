@@ -9,22 +9,10 @@ body{
       background-color: rgb(43, 1, 1);
 }
 
-.container-ver{
-    background-color: rgb(102, 23, 23,1);
-    width: 400px;
-    height: 500px;
-    margin-left: 0;
-    position: absolute;
-    transform: skewX(-10deg);
-    overflow: hidden;
-    margin-left: -30px;
-    
-
+.triangulo{
+    position: fixed;
+    top: -500px;
+    left: -1650px;
+    transform: rotate(29deg);    
 }
 
-.conteudo{
-    transform: skewX(10deg);
-    color: white;
-    padding: 15px;
-    padding-left: 50px;
-}
