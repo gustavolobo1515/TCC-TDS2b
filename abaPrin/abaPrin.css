@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
@@ -20,22 +21,22 @@ width: 500px;
 border-bottom-color:#000000;
 }
 .filtros{
-padding: 5px;
+  padding: 5px;
   border: 2px solid #000000;
   border-radius: 10px;
   background-color: #ffffff;
   cursor: pointer;
-  margin-left: 665px;
+  margin-left: 910px;
 }
 .pesquisar button{
-padding: 9px;
+  padding: 9px;
   border: 2px solid #000000;
   background-color: #ffffff;
   color: rgb(63, 7, 7);
   border-radius: 25px;
   cursor: pointer;
   position: absolute;
-  right: 500px;
+  right: 450px;
 }
 .fundoCinza{
     background-color: #A6a6a6;
@@ -56,5 +57,6 @@ padding: 9px;
 .teste{
     color: aliceblue;
     text-align: center;
-    
+    margin-top: 200px;
+    font-size: 32px;
 }
