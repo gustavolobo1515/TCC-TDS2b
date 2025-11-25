@@ -2,33 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body{
     background-color: #561313;
-    
+}
+.BPerfi{
+    width:50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 1350px;
+    cursor: pointer;
+}
+.iconeDePerfil{
+    font-size: 30px;
 }
 .pesquisar{
     text-align: center;
     padding-top: 100px;
 }
 .pesquisar input{
+<<<<<<< HEAD
     border-radius: 20px;
     padding: 8px;
     width: 500px;
 
+=======
+border-radius: 20px;
+padding: 9px;
+width: 500px;
+border-bottom-color:#000000;
+>>>>>>> dabc13799d441b739166fbad4bd6561496e09360
 }
-.Bpesquisa{
+.filtros{
+  padding: 5px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-left: 910px;
+}
+.pesquisar button{
+  padding: 9px;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  color: rgb(63, 7, 7);
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+  right: 458px;
+}
+.fundoCinza{
     background-color: #A6a6a6;
     height: 300px;
     background: linear-gradient(to top, #464646, #A6a6a6);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.Buscar{
-    color: #000000;
-    cursor: pointer;
-    border-radius: 20px;
-    padding: 5px;
 }
 .Bartes{
     background-color: rgb(0, 0, 0);
@@ -43,5 +72,6 @@ body{
 .teste{
     color: aliceblue;
     text-align: center;
-    
+    margin-top: 200px;
+    font-size: 32px;
 }
