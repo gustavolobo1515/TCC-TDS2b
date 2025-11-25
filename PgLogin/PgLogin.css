@@ -16,3 +16,128 @@ body{
     transform: rotate(29deg);    
 }
 
+.Container-login{
+    position: fixed;
+    background:linear-gradient(to top right , #464646 ,rgb(194, 194, 194,1));
+    border-radius:20px ;
+    width: 476px;
+    height: 440px;
+    top: 100px;
+    right: 150px;
+
+}
+
+.place{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.place input{
+    
+    margin-top:20px ;
+    margin-left: -10px;
+    height: 35px;
+    width: 340px;
+    font-size: 22px;n
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: none;
+    border-bottom-color: white;
+    border-right-color: white;
+    border-left-color:white;
+    background: none;
+
+}
+
+.place :focus{
+    outline: none;
+}
+
+.place ::placeholder{
+    color: white;
+    font-style: italic;
+
+}
+
+.Container-checkbox{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Container-checkbox input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Container-checkbox input:checked ~ .checkmark{
+    background-color: black;
+    border: color #2196f3; ;
+
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.Container-checkbox.checkmark:after{
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border:solid rgb(255, 0, 0);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.caixa{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 80px;
+    gap: 15px;
+
+}
+
+.container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.container-button button{
+    width: 293px;
+    height: 31px;
+    border: none;
+    box-shadow: none;
+    background: none;
+    outline: nones;
+    color: aliceblue;
+    background-color:rgb(47, 45, 45,1);
+    
+}
+
+
+ 
